@@ -9,6 +9,9 @@
 
       <article>
         <h1><a href="{{ SITEURL }}/{{ article.url }}">{{ article.title }}</a></h1>
+	  	{% if article.summary %}
+	  		<div class="summary">{{ article.summary }}</div>
+	  	{% endif %}
         {{ article.content }}
       </article>
 

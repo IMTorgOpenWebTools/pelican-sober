@@ -325,3 +325,101 @@ li.tag-4 { font-size: 110%; margin: 0 1em; }
   }
 }
 
+
+p.tags a {
+    margin-left: 0.4em;  
+}
+
+article.full .metadata {
+    /* border: 1px solid red; */
+    outline: #D6D6D6 dotted thin;
+    margin: 0% 0% 2% 2%;
+}
+
+div.summary {
+	font-style: italic;
+	margin-bottom: 1em;
+}
+
+
+* ========== Admonitions ========== */
+
+div.admonition, 
+div.attention, 
+div.caution, 
+div.danger, 
+div.error,
+div.hint, 
+div.important, 
+div.note, 
+div.tip, 
+div.warning {
+    margin-bottom: 2em !important;
+    border: solid 1px #111;
+    padding-left: 0.5em !important;
+    background-color: #eee;
+	 margin-bottom: 1em
+}
+
+p.admonition-title {
+    font-weight: bold ;
+	 margin: 1em;
+}
+
+
+div.error,
+div.danger {
+    border-color: #a94442;
+    background-color: #f2dede;
+}
+
+div.note, 
+div.hint,
+div.tip {
+    border-color: #31708f;
+    /* background-color: #d9edf7; */
+	 background-color: WhiteSmoke; 
+	   margin-bottom: 1em
+}
+
+div.attention,
+div.caution,
+div.warning {
+    border-color: #8a6d3b;
+    background-color: #fcf8e3; 
+}
+
+div.note p.admonition-title,
+div.hint p.admonition-title,
+div.tip p.admonition-title {
+    color: #31708f;
+}
+
+div.attention p.admonition-title,
+div.caution p.admonition-title,
+div.warning p.admonition-title {
+    color: #8a6d3b;
+}
+
+div.danger p.admonition-title, 
+div.error p.admonition-title,
+.code .error {
+    color: #a94442;
+}
+
+div.note p, 
+div.admonition p, 
+div.attention p, 
+div.caution p, 
+div.danger p, 
+div.error p,
+div.hint p, 
+div.important p, 
+div.note p, 
+div.tip p, 
+div.warning p {
+    margin: 0em 1em 0.3em 1em;
+}
+
+
+

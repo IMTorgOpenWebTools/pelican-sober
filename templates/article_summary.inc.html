@@ -4,6 +4,9 @@
     <h2>
       <a href="{{ SITEURL }}/{{ article.url }}" rel="bookmark" title="Permalink to {{ article.title|striptags }}">{{ article.title }}</a>
     </h2>
-    <p>{{ article.summary }}</p>
+	{% if article.tagline %}
+		<div class="summary">{{ article.tagline }}</div>
+	{% endif %}
+{{ article.summary }}
   </div>
 </article>
